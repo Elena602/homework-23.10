@@ -61,7 +61,6 @@ void FillArray3(int[,] matr3)
     {
         for (int j = 0; j < matr3.GetLength(1); j++)
         {
-            //matr3[i, j] = matr[i, j] * matr2[i, j];
             matr3[0, 0] = matr[0, 0] * matr2[0, 0] + matr[0, 1] * matr2[1, 0];
             matr3[0, 1] = matr[0, 0] * matr2[0, 1] + matr[0, 1] * matr2[1, 1];
             matr3[1, 0] = matr[1, 0] * matr2[0, 0] + matr[1, 1] * matr2[1, 0];
